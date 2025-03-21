@@ -1,6 +1,3 @@
-# Blackjack-Python
-A simple blackjack game coded in python as a school project
-
 # This requires a module install to use:
 
 In most CLI's type:
