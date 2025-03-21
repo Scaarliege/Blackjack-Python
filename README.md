@@ -5,7 +5,9 @@ A simple blackjack game coded in python as a school project
 
 In most CLI's type:
 
-```pip install colorama pyfiglet```
+```
+pip install colorama pyfiglet
+```
 
 If you are using Linux type:
 
