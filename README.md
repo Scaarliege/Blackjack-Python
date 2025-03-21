@@ -20,6 +20,12 @@ sudu apt install python3-pyfiglet
 
 Alternatively use:
 
-colorama: https://pypi.org/project/colorama/
+colorama:
+```
+https://pypi.org/project/colorama/
+```
 
-pyfiglet: https://pypi.org/project/pyfiglet/
+pyfiglet: 
+```
+https://pypi.org/project/pyfiglet/
+```
