@@ -1,7 +1,7 @@
 # Blackjack-Python
 A simple blackjack game coded in python as a school project
 
-This requires a pip install to use
+This requires a pip install to use:
 
 ```pip install colorama pyfiglet```
 
