@@ -5,7 +5,7 @@ This requires a pip install to use:
 
 ```pip install colorama pyfiglet```
 
-Alternatively install them through these links:
+Alternatively install the modules through these links:
 
 colorama: https://pypi.org/project/colorama/
 pyfiglet: https://pypi.org/project/pyfiglet/
