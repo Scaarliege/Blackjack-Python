@@ -10,7 +10,8 @@ In most CLI's type:
 If you are using Linux type:
 
 ```sudo apt install python3-colorama
-sudu apt install python3-pyfiglet```
+sudu apt install python3-pyfiglet
+```
 
 Alternatively use:
 
