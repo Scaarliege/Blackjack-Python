@@ -1,30 +1,19 @@
+import random
+
 def shuffle_deck():
-    import random
     ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
     suits = ["Hearts", "Diamonds", "Clubs", "Spades"]
     deck = [f"{rank} of {suit}" for rank in ranks for suit in suits]
     random.shuffle(deck)
     return deck
 
-def get_hand(deck):
-    hand = [deck.pop() for _ in range(2)]
-    return hand
+def get_hand(deck, num_cards=2):
+    return [deck.pop() for _ in range(num_cards)]
 
 def get_hand_value(hand):
     card_value = {
-        "2": 2,
-        "3": 3,
-        "4": 4,
-        "5": 5,
-        "6": 6,
-        "7": 7,
-        "8": 8,
-        "9": 9,
-        "10": 10,
-        "J": 10,
-        "Q": 10,
-        "K": 10,
-        "A": [1, 11]
+        "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10,
+        "J": 10, "Q": 10, "K": 10, "A": [1, 11]
     }
     value = 0
     aces = 0
@@ -40,8 +29,10 @@ def get_hand_value(hand):
         aces -= 1
     return value
 
-def display_hand(hand, hide_first_card):
-    if hide_first_card:
+def display_hand(hand, hide_first_card=False, hide_all_cards=False):
+    if hide_all_cards:
+        print("Dealer's hand: [X, X]")
+    elif hide_first_card:
         print("Dealer's hand: [X, " + ", ".join(hand[1:]) + "]")
     else:
         print("Hand: [" + ", ".join(hand) + "]")
@@ -64,5 +55,4 @@ def get_move():
         move = input("Enter 'h' to hit or 's' to stand: ").lower()
         if move in ['h', 's']:
             return move
-        else:
-            print("Invalid input. Please enter 'h' or 's'.")
+        print("Invalid input. Please enter 'h' or 's'.")
