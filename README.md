@@ -15,7 +15,7 @@ sudo apt install python3-colorama
 sudu apt install python3-pyfiglet
 ```
 
-Alternatively use:
+To download from the web use:
 
 colorama:
 ```
