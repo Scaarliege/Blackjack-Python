@@ -53,6 +53,3 @@ Steps to contribute:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
-
-You can copy this content and paste it into your `README.md` file. Feel free to modify it to better suit your project's needs.
