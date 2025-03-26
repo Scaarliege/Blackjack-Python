@@ -1,4 +1,3 @@
-```markdown
 # Security Policy
 
 ## Supported Versions
@@ -7,8 +6,8 @@ I release patches for security vulnerabilities. Which versions are eligible for 
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.x     | Supported          |
-| < 1.0   | Not Supported      |
+| 1.x     | ✅          |
+| < 1.0   | :x:      |
 
 ## Reporting a Vulnerability
 
@@ -24,4 +23,3 @@ Please include as much information as possible to help me address the issue quic
 - Any possible solutions or patches
 
 Thank you for helping to keep my project safe!
-```
