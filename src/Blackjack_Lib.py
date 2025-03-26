@@ -56,3 +56,14 @@ def get_move():
         if move in ['h', 's']:
             return move
         print("Invalid input. Please enter 'h' or 's'.")
+
+def update_card_count(card, card_count):
+    high_cards = ["10", "J", "Q", "K", "A"]
+    low_cards = ["2", "3", "4", "5", "6"]
+
+    rank = card.split()[0]
+    if rank in high_cards:
+        card_count -= 1
+    elif rank in low_cards:
+        card_count += 1
+    return card_count
